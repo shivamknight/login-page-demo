@@ -6,3 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [tailwindcss(),react()],
 })
+export default {
+  base: "/login-page-demo/",
+}
